@@ -93,16 +93,17 @@
   <h2 class="h4 m-4 text-light">Contacto</h2>      
   <div class="row">
     <div class="col-xxl-3"> 
-        <form>
+        <form action="https://formsubmit.co/marianaolivera83@gmail.com" method="POST">
             <div class="contacto">
                 <label  for="name">Nombre:</label>
-                <input type="text" class="form-control" placeholder="Ingresa el nombre">
+                <input type="text" name="name" class="form-control" placeholder="Ingresa el nombre">
                 <label for="email">Email:</label>
-                <input type="email" class="form-control" placeholder="Ingresa el mail">
+                <input type="email" name="email" class="form-control" placeholder="Ingresa el mail">
+                <label  for="subject">Asunto:</label>
+                <input type="text" name="subject"    class="form-control" placeholder="Ingresa el asunto">
                 <label for="mensaje">Mensaje:</label>
-                <textarea class="form-control" placeholder="Ingresa el mensaje"></textarea>
-                <input id="botEnviar" type="reset" class="btn  btn-primary mb-3" value="Enviar" />
-               <input id="botLimpiar" type="reset" class="btn  btn-primary mb-3" value="Limpiar">
+                <textarea name="comments" class="form-control" placeholder="Ingresa el mensaje"></textarea>
+                <input type="submit" value="Enviar">
             </div> 
         </form>
     </div>
